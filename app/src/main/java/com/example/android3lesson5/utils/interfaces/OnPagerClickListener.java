@@ -1,0 +1,8 @@
+package com.example.android3lesson5.utils.interfaces;
+
+
+import com.example.android3lesson5.models.viewpager_model.ViewPagerModel;
+
+public interface OnPagerClickListener {
+    void onClick(ViewPagerModel viewPagerModel);
+}
